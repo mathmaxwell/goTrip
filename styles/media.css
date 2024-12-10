@@ -1,0 +1,389 @@
+@media (max-width: 1200px) {
+  .input {
+    width: 205px;
+  }
+  .button {
+    padding: 9px 13px;
+  }
+  .catalog_minibox {
+    width: 13%;
+  }
+  .contact_title {
+    margin-bottom: 45px;
+  }
+  .footer {
+    margin-top: 80px;
+  }
+  .footer_text {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header_list {
+    gap: 25px;
+  }
+  .input {
+    width: 201px;
+    padding: 8px 18px;
+  }
+  .button {
+    padding: 9px 12px;
+  }
+  .intro {
+    height: 661px;
+    gap: 41px;
+  }
+  .intro_textbox {
+    gap: 18px;
+  }
+  .intro_title {
+    font-size: 66px;
+  }
+  .intro_text,
+  .blueTitle {
+    font-size: 33px;
+  }
+  .intro_link,
+  .aboutUs_text {
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  .intro_link {
+    padding: 11px 64px;
+  }
+  .aboutUs {
+    margin: 66px auto 80px;
+  }
+  .aboutUs_img {
+    width: 90%;
+  }
+  .aboutUs_textbox {
+    margin-top: 0;
+    width: 90%;
+    text-align: justify;
+  }
+  .catalog_box {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin-bottom: 80px;
+  }
+  .catalog_minibox {
+    width: 263px;
+  }
+  .catalog_text {
+    font-size: 24px;
+    margin-top: 24px;
+  }
+  .contacts_minitext,
+  .contact_link {
+    font-size: 19px;
+  }
+  .contacts_minitext {
+    text-align: center;
+    width: auto;
+  }
+  .contact_title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .contacts_taxtbox {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .footer {
+    margin-top: 70px;
+    padding-top: 35px;
+  }
+  .footer_text {
+    margin-top: 35px;
+  }
+}
+@media (max-width: 768px) {
+  .header_box {
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px 0 25px;
+  }
+  .header_link {
+    padding-bottom: 0;
+  }
+  .header_link:hover {
+    border-bottom: none;
+  }
+  .header_list {
+    display: flex;
+    gap: 20px;
+  }
+  .input {
+    width: 192px;
+    padding: 6px 15px;
+  }
+  .button {
+    padding: 9px 11px;
+  }
+  .intro {
+    height: 512px;
+    gap: 32px;
+  }
+  .intro_textbox {
+    gap: 16px;
+  }
+  .intro_title {
+    font-size: 51px;
+  }
+  .intro_text,
+  .blueTitle {
+    font-size: 26px;
+  }
+  .intro_link,
+  .aboutUs_text,
+  .header_link,
+  .input,
+  .footer_link {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .intro_link {
+    padding: 8px 49px;
+  }
+  .aboutUs {
+    margin: 51px auto 62px;
+  }
+  .catalog_box {
+    margin-bottom: 70px;
+  }
+  .contact_title {
+    margin-bottom: 30px;
+  }
+  .catalog_text {
+    font-size: 20px;
+    margin-top: 19px;
+  }
+  .contacts_list {
+    gap: 15px;
+  }
+  .contacts_minitext,
+  .contact_link {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .footer {
+    margin-top: 60px;
+    padding-top: 30px;
+  }
+  .footer_text {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 650px) {
+  .header_box {
+    padding: 20px 0 20px;
+    gap: 13px;
+  }
+  .header_link {
+    font-size: 15px;
+  }
+  .input {
+    width: 183px;
+    padding: 6px 15px;
+  }
+  .button {
+    padding: 9px 10px;
+  }
+  .intro {
+    height: 443px;
+    gap: 40px;
+  }
+  .intro_textbox {
+    gap: 15px;
+  }
+  .intro_title {
+    font-size: 43px;
+  }
+  .intro_text,
+  .blueTitle {
+    font-size: 24px;
+  }
+  .intro_link,
+  .aboutUs_text,
+  .header_link,
+  .input,
+  .footer_link {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .aboutUs_textbox {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow-y: scroll;
+  }
+  .intro_link {
+    padding: 7px 42px;
+  }
+  .aboutUs {
+    margin: 43px auto 52px;
+  }
+  .catalog_box {
+    flex-wrap: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+    margin-bottom: 40px;
+  }
+  .catalog_minibox {
+    flex-shrink: 0;
+  }
+  .catalog_text {
+    font-size: 16px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+  }
+  .contact_title {
+    margin-bottom: 20px;
+  }
+  .contacts_minitext {
+    font-size: 15;
+  }
+  .footer {
+    margin-top: 50px;
+    padding-top: 25px;
+  }
+  .footer_text {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 480px) {
+  .header_box {
+    padding: 15px 0 15px;
+    gap: 11px;
+  }
+  .header_link {
+    font-size: 14px;
+  }
+  .input {
+    width: 175px;
+    padding: 4px 10px;
+    font-size: 14px;
+  }
+  .button {
+    padding: 9px 10px;
+  }
+  .intro {
+    height: 320px;
+    gap: 30px;
+  }
+  .intro_textbox {
+    gap: 13px;
+  }
+  .intro_title {
+    font-size: 32px;
+  }
+  .intro_text,
+  .blueTitle {
+    font-size: 20px;
+  }
+  .intro_link,
+  .aboutUs_text,
+  .header_link,
+  .input,
+  .footer_link {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .intro_link {
+    padding: 6px 31px;
+  }
+  .aboutUs {
+    margin: 32px auto 38px;
+  }
+  .catalog_box {
+    margin-bottom: 25px;
+  }
+  .catalog_text {
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .contact_title {
+    margin-bottom: 15px;
+  }
+  .contacts_minitext,
+  .contact_link {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .footer {
+    margin-top: 30px;
+    padding-top: 20px;
+  }
+  .footer_text {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .header_box {
+    padding: 10px 0 10px;
+    gap: 10px;
+  }
+  .header_list {
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .header_link {
+    font-size: 14px;
+  }
+  .input {
+    width: 130px;
+    padding: 3px 10px;
+    font-size: 14px;
+  }
+  .button {
+    width: 62px;
+    padding: 9px 8px;
+  }
+  .intro {
+    height: 213px;
+    gap: 13px;
+  }
+  .intro_textbox {
+    gap: 12px;
+  }
+  .intro_title {
+    font-size: 21px;
+  }
+  .intro_text,
+  .blueTitle {
+    font-size: 20px;
+  }
+  .intro_link,
+  .aboutUs_text,
+  .header_link,
+  .input,
+  .footer_link {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .aboutUs {
+    margin: 21px auto 25px;
+  }
+  .contacts_minitext,
+  .contact_link {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .footer {
+    margin-top: 15px;
+    padding-top: 15px;
+  }
+  .footer_text {
+    margin-top: 15px;
+  }
+}
